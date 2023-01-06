@@ -23,3 +23,4 @@ Route::get('/', function () {
 Route::resource('/ticket', TiketController::class);
 Route::resource('/transaksi', TransaksiController::class);
 Route::resource('/buyer', BuyerController::class);
+Route::get('/login', [BerandaController::class, 'login'])->name('login');

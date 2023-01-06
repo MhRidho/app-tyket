@@ -11,11 +11,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-        <title>Konser Padang</title>
+        <title>Konser Ticket</title>
     </head>
     <body class="antialiased">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Konser Padang</a>
+            <a class="navbar-brand" href="#">Konser Ticket</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pesan Tiket</a>
+                        <a class="nav-link" href="{{ Route('ticket.index') }}">Pesan Tiket</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Login</a>
